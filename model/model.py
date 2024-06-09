@@ -22,28 +22,7 @@ def activation(matrix,tau):
     return matrix
 
 def model(matrix_a, matrix_b):
-    matrix_a = np.array([[1, 2, 3, 4],
-                        [1, 2, 3, 4],
-                        [1, 2, 3, 4],
-                        [1, 2, 3, 4]])
-
-    matrix_b = np.array([[4, 0, 2, 1],
-                        [4, 3, 2, 0],
-                        [4, 3, 0, 1],
-                        [4, 3, 2, 1]])
-
     result1 = multiply_matrices(matrix_a, matrix_b)
     result2 = quantization(result1)
     result  = activation(result2,10)
-
     return result
-    # print("Matrix A:")
-    # print(matrix_a)
-    # print("\nMatrix B:")
-    # print(matrix_b)
-    # print("\nResult of multiplication:")
-    # print(result1)
-    # print("\nResult of quantization:")
-    # print(result2)
-    # print("\nResult of activation:")
-    # print(result)
