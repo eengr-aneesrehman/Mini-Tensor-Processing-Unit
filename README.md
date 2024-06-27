@@ -18,8 +18,8 @@ This repository contains the design and verification of a Mini Tensor Processing
 
 - **MAC Unit**: Each processing element contains a Multiply-Accumulate unit.
 
-![MAC](https://github.com/eengr-aneesrehman/Mini-Tensor-Processing-Unit/assets/103167188/f1c2af25-4b50-493e-8142-0ec96532b619)
-
+![MAC](https://github.com/eengr-aneesrehman/Mini-Tensor-Processing-Unit/assets/103167188/8b99008d-a941-4268-8668-de4de1a43497)
+  
 - **Systolic Array**: A 4x4 array of processing elements.
 
 ![4x4 SA](https://github.com/eengr-aneesrehman/Mini-Tensor-Processing-Unit/assets/103167188/6a53efda-dfa5-4028-876e-a535422e969b)
